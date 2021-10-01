@@ -1,0 +1,223 @@
+1. INTRODUCTION
+
+
+Today supermarkets and department stores are the epitome of globalization. They bring together goods sourced from different parts of the world and offer immense choice to each consumer. This system is designed to handle warehouse and inventory management tasks of such stores.
+The number of suppliers to modern day stores increases the complexity of the existing system as each supplier will have to be individually contacted and receipts generated and shared for each transaction. This system will facilitate the process of maintaining stock records, ordering new stocks and payment. It will also help suppliers and the store to track trends and statistics of sales.
+The process starts with the addition of a new supplier to the system. The supplier will be able to enter the lead time, i.e. the time needed from placing the order to order delivery, for each product. Terms such as transit insurance, late delivery penalty and price per unit can be decided at this time. It will be the supplier’s responsibility to update the system with any changes in delivery times due to festive sales, holidays, etc.
+When the store places an order for a batch of product units, the supplier will arrange delivery within the stipulated time and will update the system with the Stock Keeping Unit (SKU) for each unit being sent. The store will confirm receipt of the units and their SKU upon delivery. The scanning of the SKU can be completed easily using a bar code scanner. The store can also set automatic ordering options, which will automatically place an order for a product once the supplies go below a specified level.
+The selling prices of the products are then decided and the product goes onto the shelves of different stores. The sales of the product can be tracked across the chain using the SKU. Whenever a product is sold or discounted or returned the SKU for the product will be required for updating the records.
+The store can use this data to predict stocks required in the future and the supplier can see the sales data for their products to make manufacturing decisions. Payment for the products can be completed using the system at any time. Receipts for sales will be maintained on the system and can be printed out at will.
+
+
+TECHNOLOGIES LEARNED 
+
+Software Environment
+The project experimental setup desires software system package Windows 7 and JDK one.6 ,Oracle and MySQL 2008 Databases. And to boot true cat server, SQL YOG required.
+
+Java Technology
+Java technology is used for programming language and a platform for both.
+
+The Java Programming Language
+The Java programming language is a sophisticated language that can be categorized by all of the following buzzwords:
+• Simple
+• Architecture neutral
+• Object oriented
+• Portable
+• Distributed
+• High performance
+• Interpreted
+• Multithreaded
+• Robust
+• Dynamic
+• Secure
+
+ 
+With most programming languages, you either compile or interpret a project with the goal that you can run it on your PC. The Java programming dialect is irregular in that a project is both arranged and deciphered. With the compiler, first you make an interpretation of a system into a middle of the road dialect called Java byte codes — the platform-autonomous codes deciphered by the translator on the Java platform. The translator parses and runs every Java byte code direction on the PC. Aggregation happens just once;
+understanding happens every time the project is executed. The accompanying figure outlines how this works.
+
+You can consider Java byte codes as the machine code guidelines for the Java Virtual Machine (Java VM). Each Java translator, whether it's an advancement device or a web program that can run applets, is an execution of the Java VM. Java byte codes make "compose once, run anyplace" conceivable. You can incorporate your project into byte codes on any stage that has a Java compiler. The byte codes can then be keep running on any execution of the Java VM. That implies that the length of a PC has a Java VM, the same system written in the Java programming dialect can keep running on a Solaris workstation, Windows 2000, or on an iMac.
+
+ 
+    
+A platform is the hardware or software environment in which a project runs. I've specified probably the most prevalent platforms like Linux, Windows 2000,Solaris, and MacOS. Most platforms can be depicted as a mix of the working framework and hardware. The Java platform varies from most different platforms in that it's a software-just platform that keeps running on top of other hardware- dependent platforms.
+The Java platform has two components:
+· The Java VM (Java Virtual Machine)
+· The Java API (Java Application Programming Interface)
+You’ve been acquainted with the Java VM. It's the base for the Java stage and is ported onto different equipment based platforms.The Java API is a huge collection of ready-made software components that offer many useful abilities, such as graphical user interface (GUI) widgets. The Java API is assembled into libraries of related classes and interfaces; these libraries are known as packages.
+
+The taking after figure delineates a system that is running on the Java platform. As the figure
+demonstrates, the Java API and the virtual machine protect the system from the hardware.
+
+ 
+
+Native code is code that after you compile it, the compiled code runs on a particular hardware platform. As a platform-free environment, the Java platform can be somewhat slower than local code. Notwithstanding, brilliant compilers, all around tuned translators, and in the nick of time byte code compilers can convey execution near that of local code without debilitating portability.
+
+Working Java Technology
+The general common sorts of programs written in the Java programming dialect are applets and applications. On the off chance that you've surfed the web, you're likely effectively acquainted with applets. An applet is a system that holds fast to specific traditions that permit it to keep running inside of a Java-empowered browser.However, the Java programming language is not only to write adorable, enlivening applets for the Ib. The broadly useful, abnormal state Java programming dialect is additionally an intense software platform. Utilizing the liberal API, you can compose numerous sorts of programs.
+An application is a standalone program that runs straightforwardly on the Java platform. An uncommon sort of utilization known as a server serves and backings customers on a system. Illustrations of servers are Ib servers, intermediary servers, mail servers, and print servers. Another particular project is a servlet. A servlet can practically be considered as an applet that keeps running on the server side. Java Servlets are a well-known decision for building intelligent web applications, supplanting the utilization of CGI scripts. Servlets are like applets in that they are runtime expansions of uses. Rather than working in programs, however, servlets keep running inside of Java web servers, arranging or customizing the server.
+How can API support different kinds of programs? It does so with packages of software components it gives a broad range of functionality. Every complete implementation of the Java platform gives you the following features:
+
+ 
+   • The essentials: Objects, threads, strings, numbers, input and output, system properties, data structures, date and time, and so on.
+• Applets: The set of conventions used by applets.
+• Networking: URLs, Transmission Control Protocol (TCP), User Data gram
+Protocol(UDP) sockets, and Internet Protocol(IP) addresses.
+• Internationalization: Help for composing projects that can be limited for clients around the world. Projects can naturally adjust to particular areas and be shown in the suitable language.
+• Security: Both low level and high level, private and public key management,access control, including electronic signatures, and certificates.
+• Software components: Known as JavaBeansTMs, can plug into already present component architectures.
+• Object serialization: Accepts lightweight persistence and communication via RMI (Remote Method Invocation).
+• Java Database Connectivity (JDBCTM): Provides equal access to a broad range of relational databases.
+The Java platform contains Application programming interfaces (APIs) for 2D and3D graphics, servers, collaboration, telephony, accessibility, animation, speech and more. The following figure says what is in the Java 2 SDK.
+
+ 
+ODBC
+Microsoft ODBC (Open Database Connectivity) is a standard programming interface for application designers and database frameworks suppliers. Before ODBC turned into a true standard for Windows projects to interface with database frameworks, software engineers needed to utilize restrictive dialects for every database they needed to associate with. Presently, ODBC has settled on the decision of the database framework verging on immaterial from a coding point of view, which is as it ought to be. Application designers have substantially more critical things to stress over than the grammar that is expected to port their system starting with one database then onto the next when business needs abruptly change.
+Through the ODBC Administrator in Control Panel, you can indicate the specific database that is connected with an information source that an ODBC application project is composed to utilize. Think about an ODBC information source as an entryway with a name on it. Every entryway will lead you to a specific database. For instance, the information source named Sales Figures may be a SQL Server database, while the Accounts Payable information source could allude to an Access database. The physical database alluded to by an information source can live anyplace on the LAN.
+The ODBC system files are not introduced on your system by Windows 95. Maybe, they are introduced when you setup a different database application, for example, SQL Server Client or Visual Basic 4.0. At the point when the ODBC symbol is introduced in Control Panel, it utilizes a document called ODBCINST.DLL. It is likewise conceivable to direct your ODBC information sources through a stand-alone program called ODBCADM.EXE. There is a 16-bit and a 32-bit adaptation of this system and each keeps up a different rundown of ODBC information sources.
+From a programming point of view, the excellence of ODBC is that the application can be composed to utilize the same arrangement of capacity calls to interface with any information source, paying little heed to the database seller. The source code of the application doesn't change whether it converses with Oracle or SQL Server. I just say these two as an illustration. There are ODBC drivers accessible for a few dozen Ill known database systems. Indeed, even Excel spreadsheets and plain content files can be transformed into information sources. The working framework utilizes the Registry data composed by ODBC Administrator to figure out which low- level ODBC drivers are expected to converse with the information source, (for example, the
+
+ 
+   interface to Oracle or SQL Server). The stacking of the ODBC drivers is straightforward to the ODBC application program. In a customer/server environment, the ODBC API even handles huge numbers of the system issues for the application programmer.
+The advantages of this plan are numerous to the point that you are most likely thinking there must be some catch. The main drawback of ODBC is that it isn't as productive as talking specifically to the local database interface. ODBC has had numerous spoilers make the charge that it is too moderate. Microsoft has dependably asserted that the basic component in execution is the nature of the driver programming that is utilized. As I would see it, this is valid. The accessibility of good ODBC drivers has enhanced an incredible arrangement as of late. What's more, at any rate, the feedback about execution is to some degree practically equivalent to the individuals who said that compilers would never coordinate the pace of unadulterated low level computing construct. Possibly not, but rather the compiler (or ODBC) gives you the chance to compose cleaner projects, which implies you every year.
+
+JDBC
+In an effort to set a free database standard API for Java; Sun Microsystems created Java Database Connectivity, or JDBC. JDBC offers a bland SQL database access system that gives a predictable interface to an assortment of RDBMSs. This predictable interface is accomplished through the utilization of "module" database availability modules, or drivers. In the event that a database seller wishes to have JDBC bolster, he or she must give the driver to every stage that the database and Java run on.
+To get a broad acceptance of JDBC, Sun construct JDBC's structure in light of ODBC. As you found before in this part, ODBC has across the board support on an assortment of stages. Constructing JDBC in light of ODBC will permit sellers to put up JDBC drivers for sale to the public much speedier than adding to a totally new availability solution.
+JDBC was proclaimed in March of 1996. It was released for a 90 day public review that was ended June 8, 1996. Due to the user input, the final JDBC v1.0 specification was released soon after.
+
+ 
+   The rest of this segment will sufficiently cover data about JDBC for you to recognize what it is about and how to utilize it viably. This is in no way, shape or form a complete review of JDBC. That would fill a whole book.
+
+JDBC Goals
+Few programming packages are planned without objectives personality a primary concern. JDBC is one that, due to its numerous objectives, drove the advancement of the API. These objectives, in conjunction with ahead of schedule analyst criticism, have settled the JDBC class library into a strong structure for building database applications in Java.
+The targets that Ire set for JDBC are critical. They will give you some knowledge in the matter of why certain classes and functionalities act the way they do. The eight outline objectives for JDBC are as follows:
+• SQL Level API
+• The designers felt that their principle objective was to characterize a SQL interface for
+Java. In spite of the fact that not the most minimal database interface level conceivable, it is at a sufficiently low level for larger amount apparatuses and APIs to be made. Then again, it is at a sufficiently high level for application programmers to utilize it unquestionably. Accomplishing objective takes into consideration future instrument sellers to "produce" JDBC code and to conceal huge numbers of JDBC's complexities from the end user.
+• SQL Conformance
+SQL syntax shifts as you move from database seller to database merchant. With an end goal to bolster a wide assortment of merchants, JDBC will permit any question proclamation to be gone through it to the basic database driver. This permits the network module to handle non-standard usefulness in a way that is suitable for its users.
+• JDBC must be implemental on top of common database interfacesThe JDBC SQL API must “sit” on top of other general SQL level APIs. This goal permits JDBC to utilize existing ODBC level drivers by the utilization of a software interface. This interface would translate JDBC calls to ODBC and vice versa.
+
+ 
+   • Provide a Java interface that is consistent with the rest of the Javasystem
+because of Java’s acknowledgment in the client group so far, the architects feel that they ought not stray from the present configuration of the core Java system.
+• Keep it simple
+This objective most likely up in all product outline objective postings. JDBC is no special case. Sun felt that the outline of JDBC ought to be extremely basic, taking into account one and only system for finishing an assignment for each instrument. Permitting copy usefulness just serves to befuddle the clients of the API.
+• Use strong, static typing wherever possible
+Strong writing takes into consideration more blunder checking to be done at accumulate time; likewise, less mistake show up at runtime.
+• Keep the common cases simpleBecause more often than not, the usual SQL calls utilized by the programmer are simple INSERT’s, SELECT’s, UPDATE’s and DELETE’s, these inquiries are easy to perform with JDBC. On the otherhand, more perplexing SQL statements ought to additionally be conceivable.
+
+Java web Application
+A Java web application produces intuitive site pages containing different sorts of markup dialect (XML, HTML, and so on) and dynamic content. It is ordinarily involved We segments, for example, Java Server Pages (JSP), servlets and JavaBeans to alter and briefly store data, collaborate with databases and web administrations, and render content because of customer requests.
+Because a large number of the errands included in web application advancement can be tedious or require an overflow of standard code, web structures can be connected to reduce the overhead connected with basic exercises. For instance, numerous structures, for example, JavaServer Faces, give libraries to templating pages and session administration, and regularly advance code reuse.
+
+Java EE
+Java EE (Enterprise Edition) is a broadly utilized stage containing an arrangement of facilitated innovations that fundamentally decrease the expense and multifaceted nature of creating, sending, and overseeing multi-level, server-driven applications. Java EE expands upon the Java SE stage
+
+ 
+   and gives an arrangement of APIs (application programming interfaces) for creating and running compact, powerful, efficient and secure server-side applications.
+Some of the fundamental components of Java EE include:
+• Enterprise JavaBeans (EJB): a managed, server-side component structure utilized to encapsulate the business logic of an application. EJB technology enables rapid and simplified development of transactional, distributed, portable and secure applications depending on Java technology.
+• Java Persistence API (JPA): a framework that accepts developers to maintain data utilizing ORM (object-relational mapping) in applications built on the Java Platform.
+
+JavaScript and Ajax Development
+JavaScript is an object-oriented scripting language primarily used in client-side interfaces for web applications. Ajax (Asynchronous JavaScript and XML) is a web 2.0 technique that permits changes to happen in a website page without the need to perform a page revives. JavaScript tool boxes can be utilized to apparatus Ajax-empowered parts and usefulness in web pages.
+
+ Web Server and Client
+Web Server is software that can handle the customer demand and send the reaction back to the customer. For instance, Apache is a standout amongst the most generally utilized web server. Web Server keeps running on some physical machine and listens to customer request on specific port.
+A web client is a software that assists in corresponding with the server. The absolute most generally utilized web customers are Firefox, Google Chrome, Safari and so forth. When I ask for something from server (through URL), web customer deals with making a solicitation and sending it to server and after that parsing the server reaction and present it to the user.
+
+ HTML and HTTP
+Web Server and net shopper square measure 2 totally different code merchandise,thus there need to be some traditional language for communication. HTML is that the basic language within the middle of server and shopper and stands for Hyper Text terminology
+
+ 
+
+MySQL:
+MySQL, the popular Open Source SQL database management system, is introduced, published, and supported by Oracle Corporation.
+The MySQL Web site is http://www.mysql.com/ giving the updated information about MySQL software.
+MySQL is a database administration framework.
+A database is an organized collection of information. It may be anything from a fundamental shopping once-over to a photograph show or the unfathomable measures of information in a corporate framework. To incorporate, get to, and process information set away in a PC database, you require a database organization structure, for instance, MySQL Server. Since PCs are awesome at dealing with a considerable measure of information, database organization systems expect a central part in preparing, as standalone utilities, or as parts of distinctive applications.
+MySQL databases are social.
+A social database stores information specifically tables instead of putting all the information in one noteworthy storeroom. The database structures are sorted out into physical records enhanced for rate. The predictable model, with articles, for instance, databases, tables, points of view, lines, and portions, offers a versatile programming environment. You set up guidelines speaking to the associations between particular information fields, for instance, adjusted, one-to-various, intriguing, required or optional, and "pointers" between assorted tables. The database maintains these principles, so that with an inside and out laid out database, your application never sees clashing, duplicate, vagrant, obsolete, or missing information.
+The MySQL is base of "SQL" it signifies "Organized Query Language". SQL(Structured Query Language) is the general institutionalized dialect used to get to databases. Contingent upon your programming surroundings, you may enter SQL specifically, implant SQL proclamations into code written in another dialect, or utilize a dialect particular Application Programming Interfaces that shrouds the SQL linguistic structure.
+
+ 
+   SQL is characterized by the ANSI/ISO SQL Standard. The Structured Query Language standard has been maintain subsequent to 1986 and numerous forms exist. In this manual, "SQL- 92" identified with the standard discharged in 1992, "SQL:1999" alludes to the standard discharged in 1999, and "SQL:2003" alludes to the present form of the standard. I utilize the expression "the SQL standard" to mean the present adaptation of the SQL Standard whenever.
+MySQL programming is Open Source.
+Open Source implies that it is workable for anyone to use and modify the item. Anybody can download the MySQL programming from the Internet and use it without paying anything. If you wish, you may focus on the source code and change it to suit your needs. The MySQL programming uses the GPL (GNU General Public License), http://www.fsf.org/licenses/, to portray what you may and may not do with the item in unmistakable circumstances. In case you feel uncomfortable with the GPL or need to embed MySQL code into a business application, you can buy a mechanically approved structure
+from us. See the MySQL Licensing Overview for more information (http://www.mysql.com/association/legal/allowing/).
+The MySQL Database Server is quick, solid, adaptable, and simple to utilize.
+In the event that that is the thing that you are searching for, you should give it a shot. MySQL Server can run effortlessly on a desktop or convenient PC, near to your distinctive applications, Web servers, and so on, requiring no thought. If you confer an entire machine to MySQL, you can alter the settings to misuse all the memory, CPU poIr, and I/O limit open. MySQL can in like manner scale up to bundles of machines, sorted out together. You can find an execution relationship of MySQL Server with other database chiefs on our benchmark page.
+MySQL Server was at first made to handle generous databases much speedier than existing courses of action and has been adequately used as a piece of exceedingly asking for era circumstances for very much an extended period of time. Yet under predictable headway, MySQL Server today offers a rich and profitable plan of limits. Its system, rate, and security make MySQL Server significantly suited for getting to databases on the Internet.
+MySQL Server works in customer/server or installed frameworks.
+
+ 
+   The MySQL Database Software is a customer/server framework that contains of a multi-hung SQL server that frameworks for upkeeps different back terminations, some particular customer ventures and libraries, administrative gadgets, and a vast of utilization programming interfaces (APIs).
+I additionally give MySQL Server as an embedded multi-strung library that you can interface into your application to get a speedier, littler, less demanding to-oversee standalone item.
+A huge measure of contributed MySQL programming is accessible.
+MySQL Server has a genuine arrangement of scenes created in close backing with our clients. It is likely that your favored application or dialect bolsters the MySQL Database Server.
+The permitted approach to affirm "MySQL" is "My EssQue Ell" (not "my spin-off"), then I wouldn't fret in the event that you say it as "my continuation" or in some other restricted way. including 150 words or less. In dynamic assaults permitting test inquiries to the objective channel, 30 words will get half of blocked spam past.
+
+ANALYSIS 
+After analysing the requirements of the task to be performed, the next step is to analyse the problem and understand its context. The first activity in the phase is studying the existing system and other is to understand the requirements and domain of the new system. Both the activities are equally important, but the first activity serves as a basis of giving the fundamental specifications and then successful design of the proposed system. Understanding the properties and requirements of a new system is more difficult and requires creative thinking and understanding of existing running system is difficult, improper understanding of the present system can lead diversion from solution.
+
+SOFTWARE REQUIREMENT SPECIFICATION User Requirements
+Requirement Specification plays an important role to create quality software solution. Requirements are refined and analysed to assess the clarity. Requirements are represented in a manner that ultimately leads to successful software implementation. Each requirement must be consistent with the overall objective.
+
+Software Requirements
+The software requirements specification is produced at the end of the analysis task. Software requirement is a difficult task, only decided after testing whether it fits the requirements.
+• Operating System -
+• Coding Language -
+• Front End -
+• Back End -
+Windows XP Java/J2EE(JSP ,Servlet) J2EE
+MySQL
+
+ Hardware Requirements
+This is an IoT project so hardware plays an important role. Selection of hardware also plays an
+important role in existence and requirements.
+• Processor -
+• RAM -
+• Hard Disk -
+• Key Board -
+• Mouse -
+• Monitor -
+3.3 ANALYSIS MODEL
+performance of any software. The size and capacity are main
+Pentium –IV 4 GB (min)
+20 GB
+Standard Windows Keyboard
+Two or Three Button Mouse SVGA
+The model that is being followed is the SOFTWARE DEVELOPMENT LIFE CYCLE MODEL, which states that the phases are organised in order. First of all the feasibility study is done. Once that part is completed, the requirement analysis and project planning begins. If system existsonce, then modifications and addition of new modules is needed, analysis of present system can be used as basic model.
+The design starts after the requirement analysis is completed and the coding begins after the design is completed. Once the programming is completed, the testing is done. In this model the sequence of activities performed in a software development project are
+• Project planning
+• Requirement definition
+• Design
+
+ 
+   • Development
+• Integration and testing
+• Installation and acceptance
+
+EXISTING SYSTEM
+• • •
+The existing system depends on the use of paper and multiple files. Each order can be placed using phone calls or emails and will be followed by official quotations.
+Orders are sent and receipts generated after which payment is made. This whole process lacks the flexibility and agility required to succeed in today’s fast paced market.
+Disputes can arise due to mismatch of records and tracking the sales of each unit is a herculean task.
+
+PROPOSED SYSTEM
+• The proposed system will speed up the process and will make it more responsive to customer demands.
+• Delays in payments and ordering can be eliminated by the presence of this electronic system that will maintain a shared and tamper proof record.
+• The supplier and store can predict changes in demand and plan accordingly. Defects in any batch of the product can be easily tracked due to the use of SKUs.
+Modules
+Admin: The admin module will make access IDs for each supplier and will be able to access sales data over the whole chain of stores. Payments to the suppliers and setting of prices will also be done here.
+Store: Each store in the chain will have a user ID to access this module. Through this module they will be able to set how many stocks they require from the warehouse, they can also see sales data for their store and notify the central office about defects or returns of products.
+Supplier: The supplier will be able to confirm terms of sale with the admin and confirm orders on the system. They will receive payment via this system and can view the receipts on the system. The supplier can also see sales data for each product to gauge its demand.
+
+ 
+Software Requirements
+• Windows XP
+• Apache Tomcat Web Server
+• OracleTechnology Used
+• Java
+• J2EE
