@@ -94,3 +94,11 @@ out.println("your id is "+RETAILERID); resp.setHeader("Refresh","2;URL=./blank.h
 out.println("Data not Register ");
  
 } }
+   resp.setHeader("Refresh","2;URL=./AddSubLocRetailer"); }
+rs.close(); pstmt.close(); stmt.close(); con.close();
+}catch(Exception e) {
+System.out.println(e); 
+}
+                                             }
+                                             }
+                                             
